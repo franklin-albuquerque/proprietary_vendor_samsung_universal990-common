@@ -7,6 +7,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/universal990-common/proprietary/vendor/bin/hw/gps.sh:$(TARGET_COPY_OUT_VENDOR)/bin/hw/gps.sh \
+    vendor/samsung/universal990-common/proprietary/vendor/etc/SoundBoosterParam.txt:$(TARGET_COPY_OUT_VENDOR)/etc/SoundBoosterParam.txt \
     vendor/samsung/universal990-common/proprietary/vendor/etc/eden/gpu/eden_kernel_64.bin:$(TARGET_COPY_OUT_VENDOR)/etc/eden/gpu/eden_kernel_64.bin \
     vendor/samsung/universal990-common/proprietary/vendor/etc/gnss/gps.cer:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/gps.cer \
     vendor/samsung/universal990-common/proprietary/vendor/etc/gnss/gps.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/gps.xml \
@@ -25,6 +26,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal990-common/proprietary/vendor/etc/wifi/indoorchannel.info:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/indoorchannel.info \
     vendor/samsung/universal990-common/proprietary/vendor/firmware/APSV_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/APSV_AUDIO_SLSI.bin \
     vendor/samsung/universal990-common/proprietary/vendor/firmware/NPU_NFD_P4.7.tflite:$(TARGET_COPY_OUT_VENDOR)/firmware/NPU_NFD_P4.7.tflite \
+    vendor/samsung/universal990-common/proprietary/vendor/firmware/SoundBoosterParam.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/SoundBoosterParam.bin \
     vendor/samsung/universal990-common/proprietary/vendor/firmware/a2dpcom.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a2dpcom.bin \
     vendor/samsung/universal990-common/proprietary/vendor/firmware/abox_tplg.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/abox_tplg.bin \
     vendor/samsung/universal990-common/proprietary/vendor/firmware/abox_tplg.conf:$(TARGET_COPY_OUT_VENDOR)/firmware/abox_tplg.conf \
